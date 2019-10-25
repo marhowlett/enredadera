@@ -1,0 +1,270 @@
+//main: main.less
+
+
+@media screen and (min-width: 1280px)  {
+   .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+       width: 105%!important;
+    }
+  
+}
+@media screen and (min-width: 1366px)  {
+   .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+       width: 109%!important;
+    }
+  
+}
+
+
+@media screen and (min-width: 1400px)  {
+   .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+        width: 111%!important;
+    }
+}
+
+@media screen and (min-width: 1500px)  {
+    .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 114%!important;
+    }
+}
+@media screen and (min-width: 1600px)  {
+    .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 117%!important;
+    }
+}
+@media screen and (min-width: 1660px)  {
+    .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 121%!important;
+    }
+}
+
+@media screen and (min-width: 1700px)  {
+   .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 126%!important;
+    }
+}
+@media screen and (min-width: 1900px)  {
+    .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 131%!important;
+    }
+}
+@media screen and (min-width: 2000px)  {
+   .woocommerce .whb-general-header-inner, .search .whb-general-header-inner { 
+           width: 139%!important;
+    }
+}
+@media (max-width: 768px) {
+.offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+}
+}
+@media screen and (min-width: 1025px) {
+    /*Ajuste de logo al momento de hacer scroll*/
+    .whb-sticked .whb-general-header .woodmart-logo img {
+        transform: scale(1.6) translateY(11px);
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    /*LOGO*/
+    .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+}
+    
+    //Fix slide
+    
+    canvas{
+        touch-action:auto !important;
+    }
+    
+    .scene-nav{
+        display: none;
+    }
+    
+    /*Esquema por defecto para las secciones*/
+    .grid {
+		    display: initial;
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+     margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+}
+
+
+    .template-section {
+        .col {
+            min-height: auto;
+            padding: 20px;
+        }
+		h1 {
+			    font-size: 36px;
+		}
+    }
+    
+    
+    #slider_catalogo {
+    background: url(../img/responsive_productos.png) no-repeat center;
+    background-attachment: fixed;
+        .buscar2 {
+    padding: 0;
+}
+        
+    }
+        #ficha{
+        h2 {
+    margin-top: 10px;
+    
+        }
+            hr {
+                    width: 335px;
+            }
+            .formula {
+    margin-left: 10px;
+}
+        }
+    #contacto {
+            background: url(../img/fondo_contacto.png) no-repeat center;
+        img {
+        max-width: 60%;
+    margin-top: -167px;
+    display: block;
+    margin: auto;
+    margin-top: -92px;
+    position: inherit;
+    }
+        p.primero {
+    font-weight: bold;
+    margin-top: 50px;
+}
+        
+    }
+
+    /****MAQUILA**/
+    
+    #maquila_slider{ 
+        .fondo {
+    background: url(../img/maquila_responsive.png) center repeat;
+    max-width: none;
+    padding: 350px 0;
+}
+        .col_quienes {
+    position: relative;
+        padding-left: 20px;
+    padding-right: 20px;
+}
+        h1 {
+              margin-bottom: -187px;
+    text-align: center;
+    opacity: initial!important;
+        }
+        p.primera {
+              margin-top: 169px;
+    padding: 30px 0;
+        }
+    }
+    #maquila_planta{ .grid {
+    padding-left: initial;
+    padding-right: initial;
+    }
+        .col2 {
+                max-width: 90%;
+        }
+        
+        
+    }
+    #produccion {
+    min-width: 300px;
+    max-width: 300px;
+    }
+    /**QUIENES SOMOS*/
+    
+    #quienes_somos
+    {.fondo {
+    background: url(../img/quienes_somos_responsive.png) no-repeat;
+    padding: 350px 0;
+    max-width: none;
+        }
+          .col_quienes {
+   position: relative;
+        padding-left: 20px;
+    padding-right: 20px;
+}
+         h1 {
+               margin-top: -220px;
+    text-align: center;
+        }
+        p.primera {
+              margin-top: 169px;
+    padding: 30px 0;
+        }
+
+}
+    #calidad p {
+       margin-top: 20px;
+    text-align: center;
+}
+    #mision h2, #vision h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+    #mision p, #vision p {
+    margin-top: 0px;
+    max-width: 300px;
+    text-align: center;
+}
+    #vision .colvision {
+   
+    right: initial;
+}
+    #vision {
+        background-color: @gris_claro;
+    }
+   
+    #slider h1, #slider p, #slider .btn {
+    margin-left: auto;
+    text-align: center;
+}
+   
+    #buscar {
+    padding: -29px 0;
+    background-image: -webkit-linear-gradient(30deg, #30315f 90%, #dfdede 0%);
+  
+    padding-bottom: 15px;
+}
+    #buscar span {
+   
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-bottom: -38px;
+            left: auto;
+   
+}
+    #maquila p {
+		
+    max-width: 300px;
+}
+    #somos .quienes {
+    margin-left: auto;
+        margin-bottom: 50px;
+    }
+    
+}
