@@ -180,36 +180,45 @@ body .contenedor {
   border: 2px solid white;
 }
 #ini .banner1 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat top left;
 }
 #ini .banner2 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat top center;
 }
 #ini .banner3 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat top right;
 }
 #ini .banner4 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat center left;
 }
 #ini .banner5 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat center center;
 }
 #ini .banner6 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat center right;
 }
 #ini .banner7 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat bottom left;
 }
 #ini .banner8 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat bottom center;
 }
 #ini .banner9 {
+  cursor: pointer;
   background: url(../img/banner.jpg) no-repeat bottom right;
 }
 #ini .col4 {
   width: 20%;
   position: relative;
-  right: 100px;
+  right: 50px;
 }
 #ini a {
   color: #a0a0a0;
@@ -237,6 +246,7 @@ section {
   background: #e9e4dc;
 }
 #acerca {
+  background: url(../img/enredalogo.jpg) no-repeat top left;
   background-size: 100%;
   /*sólo para ejemplo*/
 }
@@ -335,11 +345,27 @@ body.home .men {
 }
 #proyectos {
   /*wobble*/
-  /*wobble*/
 }
 #proyectos img {
   margin: auto;
   display: block;
+}
+#proyectos .fot1 {
+  position: relative;
+  top: 60px;
+}
+#proyectos .fot2 {
+  position: relative;
+  top: -50px;
+}
+#proyectos .fot4 {
+  position: relative;
+  left: 100px;
+}
+#proyectos .fot5 {
+  position: relative;
+  right: 100px;
+  bottom: 40px;
 }
 @-webkit-keyframes hvr-wobble-to-bottom-right {
   16.65% {
@@ -393,16 +419,16 @@ body.home .men {
     transform: translate(0, 0);
   }
 }
-#proyectos .hvr-wobble-to-bottom-right {
+.hvr-wobble-to-bottom-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
-#proyectos .hvr-wobble-to-bottom-right:hover,
-#proyectos .hvr-wobble-to-bottom-right:focus,
-#proyectos .hvr-wobble-to-bottom-right:active {
+.hvr-wobble-to-bottom-right:hover,
+.hvr-wobble-to-bottom-right:focus,
+.hvr-wobble-to-bottom-right:active {
   -webkit-animation-name: hvr-wobble-to-bottom-right;
   animation-name: hvr-wobble-to-bottom-right;
   -webkit-animation-duration: 1s;
@@ -412,28 +438,92 @@ body.home .men {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-#proyectos .fot1 {
-  position: relative;
-  top: 60px;
-}
-#proyectos .fot2 {
-  position: relative;
-  top: -50px;
-}
-#proyectos .fot4 {
-  position: relative;
-  left: 100px;
-}
-#proyectos .fot5 {
-  position: relative;
-  right: 100px;
-  bottom: 40px;
+/*wobble*/
+#entre {
+  padding: inherit;
 }
 #entre .esg-grid .mainul li.eg-monroe-wrapper {
   background: #1b1b1b;
 }
 #entre .esg-fgc-4,
 #entre .esg-sorting-select,
-#entre .esg-sortbutton-order {
-  display: none;
+#entre .esg-sortbutton-order,
+#entre .eg-ajax-target-container-wrapper {
+  display: none!important;
+}
+#contacto {
+  background: url(../img/Enredadera.jpg) no-repeat left;
+  padding: inherit;
+}
+#contacto .col2 {
+  min-height: 212px;
+  width: 355px;
+}
+#contacto .col4 {
+  width: 20%;
+  position: relative;
+  right: 50px;
+}
+#contacto a {
+  color: #a0a0a0;
+  font-size: 0.8em;
+}
+#contacto a.primero {
+  color: black;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+#contacto ul li,
+#contacto p {
+  text-align: right;
+}
+#contacto ul {
+  position: relative;
+  top: 100px;
+}
+#contacto .men2 {
+  margin: auto;
+  display: block;
+}
+#contacto .men2 ul {
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+#contacto .men2 li {
+  float: right;
+  position: relative;
+  /* right: 50%; */
+  margin-left: 0px;
+  margin-bottom: 0px;
+  /* margin-right: -4px; */
+  right: -24px;
+}
+#contacto .men2 li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 14px;
+  position: relative;
+  text-decoration: none;
+}
+#contacto .men2 .aux-menu-label:hover {
+  text-decoration: underline;
+}
+#contacto .men2 .active {
+  text-decoration: underline;
+}
+#contacto p {
+  text-align: right;
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+  top: 160px;
+}
+#contacto p span {
+  font-size: 0.8em;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: inherit!important;
 }

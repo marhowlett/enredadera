@@ -3,41 +3,41 @@
     get_header();
 ?>
     <section id="ini" class="template-section contenedor">
-    <div class="grid">  
+    <div class="grid" id="mosaico">  
       <div class="col3">
        <div class="grid grid2">
-       <div class="banner1 col2">
+       <div class="banner1 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner2 col2">
+       <div class="banner2 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner3 col2">
+       <div class="banner3 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
        
         </div>
       <div class="grid grid2">
-       <div class="banner4 col2">
+       <div class="banner4 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner5 col2">
+       <div class="banner5 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner6 col2">
+       <div class="banner6 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
        </div>
        
        <div class="grid grid2">
-       <div class="banner7 col2">
+       <div class="banner7 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
        
-       <div class="banner8 col2">
+       <div class="banner8 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner9 col2">
+       <div class="banner9 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
        </div>
@@ -59,8 +59,7 @@ La Enredadera</a></li>
        
 </section>
       
-   
-  <?php include 'contacto.php'; ?>
+
  
 <?php 
     get_footer();

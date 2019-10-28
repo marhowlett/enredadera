@@ -247,37 +247,46 @@ body {
     border: 2px solid white;
     }
     .banner1 {
+        cursor: pointer;
          background: url(../img/banner.jpg) no-repeat top left;
     }
     .banner2 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat top center;
     }
     .banner3 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat top right;
     }
     .banner4 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat center left;
     }
     .banner5 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat center center;
     }
     .banner6 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat center right;
     }
     .banner7 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat bottom left;
     }
     .banner8 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat bottom center;
     }
     .banner9 {
+         cursor: pointer;
          background: url(../img/banner.jpg) no-repeat bottom right;
     }
 
     .col4 {
     width: 20%;
     position: relative;
-        right: 100px;
+        right: 50px;
 }
     a {
         color: @grisoscuro;
@@ -307,7 +316,7 @@ section {
     background: @gris;
 }
 #acerca {
-       
+        background: url(../img/enredalogo.jpg) no-repeat top left;
     .contenedor {
             max-width: 1375px;
     }
@@ -441,7 +450,26 @@ body.home {
     
     /*wobble*/
 
+    .fot1 {
+            position: relative;
+    top: 60px;
+    }
+    .fot2 {
+        position: relative;
+    top: -50px;
+    }
+    .fot4 {
+        position: relative;
+    left: 100px;
+    }
+    .fot5 {
+            position: relative;
+    right: 100px;
+    bottom: 40px;
+    }
 
+
+}
 @-webkit-keyframes hvr-wobble-to-bottom-right {
 16.65% {
 -webkit-transform: translate(8px, 8px);
@@ -512,35 +540,104 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
 }
 
-    .fot1 {
-            position: relative;
-    top: 60px;
-    }
-    .fot2 {
-        position: relative;
-    top: -50px;
-    }
-    .fot4 {
-        position: relative;
-    left: 100px;
-    }
-    .fot5 {
-            position: relative;
-    right: 100px;
-    bottom: 40px;
-    }
-
-
 /*wobble*/
-}
+
 #entre {
-    
+        padding: inherit;
     .esg-grid .mainul li.eg-monroe-wrapper {
     background: @grisnegro;
     }
-    .esg-fgc-4, .esg-sorting-select, .esg-sortbutton-order {
-        display: none;
+    .esg-fgc-4, .esg-sorting-select, .esg-sortbutton-order, .eg-ajax-target-container-wrapper {
+        display: none!important;
     }
     
+}
+
+#contacto {
+    background: url(../img/Enredadera.jpg) no-repeat left;
+    padding: inherit;
+    .col2 {
+          min-height: 212px;
+    width: 355px;
+    }
+    
+
+    .col4 {
+    width: 20%;
+    position: relative;
+        right: 50px;
+}
+    a {
+        color: @grisoscuro;
+        font-size: 0.8em;
+        &.primero {
+            color: black;
+            font-size: 1.0em;
+            font-weight: bold;
+        }
+    }
+    ul li, p {
+            text-align: right;
+    }
+ 
+    ul {
+            position: relative;
+    top: 100px;
+    }
+
+   .men2 {
+ margin:auto;
+		    display:block;
+ul {
+ float: right;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+li {
+ float: right;
+    position: relative;
+    /* right: 50%; */
+    margin-left: 0px;
+    margin-bottom: 0px;
+    /* margin-right: -4px; */
+    right: -24px;
+}
+    
+li a {
+ display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+    position: relative;
+    
+    text-decoration: none;
+}
+
+.aux-menu-label:hover {
+ 
+  text-decoration: underline;
+}
+
+.active {
+ text-decoration: underline;
+}
+
+ }
+    p {
+        text-align: right;
+            font-size: 1em;
+         font-weight: bold;
+        position: relative;
+    top: 160px;
+        span {
+                font-size: 0.8em;
+        }
+    }
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: inherit!important;
 }
 
