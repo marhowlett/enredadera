@@ -24,7 +24,7 @@ La Enredadera</a></li>
    
        <div class="grid grid2">
        
-       <div class="col">
+       <div class="col col5">
           <div id="imagen" class="logo2">
    <div id="info">
     
@@ -38,7 +38,7 @@ La Enredadera</a></li>
         
        
        
-       <div class="col">
+       <div class="col col5">
           <div id="imagen" class="logo2">
    <div id="info">
     

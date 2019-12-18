@@ -251,6 +251,9 @@ body .contenedor {
   position: relative;
   top: 100px;
 }
+#ini li a:hover {
+  text-decoration: underline;
+}
 section {
   background: #e9e4dc;
 }
@@ -312,6 +315,9 @@ section {
 }
 .men .aux-menu-label:hover {
   text-decoration: underline;
+}
+.men a {
+  text-transform: capitalize!important;
 }
 /*.men {
  margin:auto;
@@ -543,4 +549,115 @@ body.home .men {
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: inherit!important;
+}
+body.page-id-70 .elementor-element-6e99a94 {
+  display: none;
+}
+@media screen and (max-width: 1331px) {
+  #ini {
+    padding: inherit;
+  }
+  #ini .col3 .grid {
+    position: relative;
+    float: right;
+  }
+  #ini .col2 {
+    min-height: 158px;
+    width: 250px;
+    border: 2px solid white;
+  }
+  #ini .banner1 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat top left;
+    transition: all 0.3s 0.5s;
+  }
+  #ini .banner2 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat top center;
+    transition: all 0.3s 0.5s;
+  }
+  #ini .banner3 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat top right;
+    transition: all 0.3s 0.5s;
+  }
+  #ini .banner4 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat center left;
+    transition: all 0.6s 0.5s;
+  }
+  #ini .banner5 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat center center;
+    transition: all 0.6s 0.20s;
+  }
+  #ini .banner6 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat center right;
+    transition: all 0.6s 0.35s;
+  }
+  #ini .banner7 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat bottom left;
+    transition: all 0.6s 0.50s;
+  }
+  #ini .banner8 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat bottom center;
+    transition: all 0.6s 0.65s;
+  }
+  #ini .banner9 {
+    cursor: pointer;
+    background: url(../img/banner_lap.jpg) no-repeat bottom right;
+    transition: all 0.6s 0.80s;
+  }
+  #ini .col4 {
+    width: 20%;
+    position: relative;
+    right: 50px;
+  }
+  #ini a {
+    color: #a0a0a0;
+    font-size: 0.8em;
+  }
+  #ini a.primero {
+    color: black;
+    font-size: 1.0em;
+    font-weight: bold;
+  }
+  #ini ul li,
+  #ini p {
+    text-align: right;
+  }
+  #ini p {
+    margin-top: 0px;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  #ini ul {
+    position: relative;
+    top: 100px;
+  }
+  #acerca {
+    background: url(../img/enredalogo_lap.jpg) no-repeat top left;
+  }
+  #acerca div#info {
+    position: absolute;
+    width: 50%;
+    max-width: 675px;
+    height: 468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease 0s;
+  }
+  #acerca .col5 {
+    margin-top: -50px;
+  }
+  #acerca .col {
+    height: 417px;
+  }
 }

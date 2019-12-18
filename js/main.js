@@ -104,7 +104,7 @@ var contenido = {
     scale: 0,
 }
 
-
+/*
 //Animación en general
 sr.reveal('.template-section h1, .template-section h2', titulo);
 sr.reveal('.template-section h3', subtituloH3);
@@ -112,7 +112,7 @@ sr.reveal('.template-section h4', subtituloH4);
 sr.reveal('.template-section img, .template-section input', imagenes);
 sr.reveal('.template-section p, .template-section ul', contenido);
 sr.reveal('.template-section .btn', contenido);
-
+*/
 function addCommasToNum(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
 }
