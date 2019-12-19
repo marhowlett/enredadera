@@ -238,8 +238,11 @@ body {
         
     }
 }
-
+#ini2 {
+    display: none;
+}
 #ini {
+    display: inherit;
     padding: inherit;
     .col2 {
         min-height: 224px;
@@ -347,14 +350,18 @@ background-size: 100%;/*sólo para ejemplo*/
          
     height: 500px;
     }
+    .col5 {
+        margin-top: -50px;
+    }
     
 
 div#info {
  position: absolute; 
     overflow: hidden;
 width: 50%;
+        
     max-width: 675px;
-        height: 500px;
+           height: 550px;
        display: flex;
    justify-content: center;
    align-items: center;
@@ -575,14 +582,22 @@ animation-iteration-count: 1;
         text-align: center;
     }
 }
+.aux-full-width #inner-body {
+    overflow-x: inherit;
+}
+
 #contacto {
-    background: url(../img/Enredadera.jpg) no-repeat left;
     padding: inherit;
     .col2 {
           min-height: 212px;
     width: 355px;
     }
-    
+    .col3 {
+        height: 635px;
+         background: url(../img/Enredadera.jpg) no-repeat left;
+        background-size: 100%;
+   
+    }
 
     .col4 {
     width: 20%;

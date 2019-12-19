@@ -5,42 +5,7 @@
     <section id="contacto" class="template-section contenedor">
     <div class="grid">  
       <div class="col3">
-       <div class="grid grid2">
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       
-        </div>
-      <div class="grid grid2">
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-       
-       <div class="grid grid2">
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="col2">
-           &nbsp;&nbsp;
-       </div>
-       </div>
+       &nbsp;&nbsp;
         </div>
         
         <div class="col4">

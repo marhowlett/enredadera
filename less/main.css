@@ -171,7 +171,11 @@ body .contenedor {
   background: white;
   color: black;
 }
+#ini2 {
+  display: none;
+}
 #ini {
+  display: inherit;
   padding: inherit;
 }
 #ini .col2 {
@@ -272,12 +276,15 @@ section {
 #acerca .col {
   height: 500px;
 }
+#acerca .col5 {
+  margin-top: -50px;
+}
 #acerca div#info {
   position: absolute;
   overflow: hidden;
   width: 50%;
   max-width: 675px;
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,13 +481,20 @@ body.home .men {
 #otoño p {
   text-align: center;
 }
+.aux-full-width #inner-body {
+  overflow-x: inherit;
+}
 #contacto {
-  background: url(../img/Enredadera.jpg) no-repeat left;
   padding: inherit;
 }
 #contacto .col2 {
   min-height: 212px;
   width: 355px;
+}
+#contacto .col3 {
+  height: 635px;
+  background: url(../img/Enredadera.jpg) no-repeat left;
+  background-size: 100%;
 }
 #contacto .col4 {
   width: 20%;
@@ -555,86 +569,92 @@ body.page-id-70 .elementor-element-6e99a94 {
 }
 @media screen and (max-width: 1331px) {
   #ini {
+    display: none;
+  }
+  #ini2 {
+    display: inherit;
     padding: inherit;
   }
-  #ini .col3 .grid {
+  #ini2 .col3 .grid {
     position: relative;
     float: right;
   }
-  #ini .col2 {
+  #ini2 .col2 {
     min-height: 158px;
     width: 250px;
     border: 2px solid white;
   }
-  #ini .banner1 {
+  #ini2 .banner_lap1 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat top left;
     transition: all 0.3s 0.5s;
   }
-  #ini .banner2 {
+  #ini2 .banner_lap2 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat top center;
     transition: all 0.3s 0.5s;
   }
-  #ini .banner3 {
+  #ini2 .banner_lap3 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat top right;
     transition: all 0.3s 0.5s;
   }
-  #ini .banner4 {
+  #ini2 .banner_lap4 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat center left;
     transition: all 0.6s 0.5s;
   }
-  #ini .banner5 {
+  #ini2 .banner_lap5 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat center center;
     transition: all 0.6s 0.20s;
   }
-  #ini .banner6 {
+  #ini2 .banner_lap6 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat center right;
     transition: all 0.6s 0.35s;
   }
-  #ini .banner7 {
+  #ini2 .banner_lap7 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat bottom left;
     transition: all 0.6s 0.50s;
   }
-  #ini .banner8 {
+  #ini2 .banner_lap8 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat bottom center;
     transition: all 0.6s 0.65s;
   }
-  #ini .banner9 {
+  #ini2 .banner_lap9 {
     cursor: pointer;
     background: url(../img/banner_lap.jpg) no-repeat bottom right;
     transition: all 0.6s 0.80s;
   }
-  #ini .col4 {
+  #ini2 .col4 {
     width: 20%;
     position: relative;
     right: 50px;
   }
-  #ini a {
+  #ini2 a {
     color: #a0a0a0;
     font-size: 0.8em;
   }
-  #ini a.primero {
+  #ini2 a.primero {
     color: black;
     font-size: 1.0em;
     font-weight: bold;
   }
-  #ini ul li,
-  #ini p {
+  #ini2 ul li,
+  #ini2 p {
     text-align: right;
   }
-  #ini p {
+  #ini2 p {
     margin-top: 0px;
     font-size: 0.8em;
     font-weight: bold;
+    position: relative;
+    top: 25px;
   }
-  #ini ul {
+  #ini2 ul {
     position: relative;
     top: 100px;
   }
@@ -659,5 +679,16 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
   #acerca .col {
     height: 417px;
+  }
+  #contacto .col3 {
+    width: 75%;
+    background: url(../img/Enredadera_lap.jpg) no-repeat top left;
+    height: 485px;
+  }
+  #contacto .col4 {
+    width: 21%;
+    position: relative;
+    right: 0px;
+    top: -115px;
   }
 }
