@@ -6,10 +6,10 @@
     <div class="grid" id="mosaico">  
       <div class="col3">
        <div class="grid grid2">
-       <div class="banner1 fondo0 col2 hvr-wobble-to-bottom-right">
+       <div class="banner1 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
-       <div class="banner2 fondo0 col2 hvr-wobble-to-bottom-right">
+       <div class="banner2 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;
        </div>
        <div class="banner3 col2 hvr-wobble-to-bottom-right">
