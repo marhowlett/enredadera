@@ -47,7 +47,7 @@
            <p>www.laenredadera.com</p>
             <ul>
   <li><a href="/" class="primero">Home</a></li>
-  <li><a href="/acerca">Acerca de</a></li>
+  <li><a href="/acerca">laenredadera</a></li>
   <li><a href="/proyectos">Proyectos</a></li>
   <li><a href="/entre">Entre miradas</a></li>
    <li><a href="/blog2">Blog</a></li>

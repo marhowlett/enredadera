@@ -109,16 +109,28 @@ h2 {
   width: 20%;
 }
 /*Ajuste general*/
-body {
-  background-color: #e9e4dc !important;
-}
 body .contenedor {
   max-width: 1350px;
   width: 100%;
   margin: 0 auto;
 }
+body,
 #inner-body {
-  background-color: #e9e4dc !important;
+  background-color: #e9e4dc;
+}
+body.page-id-17 {
+  background-color: black!important;
+}
+body.page-id-17 #inner-body {
+  background-color: black!important;
+}
+body.page-id-17 .elementor-social-icon i,
+body.page-id-17 .aux-master-menu .aux-menu-label {
+  color: white;
+  color: #fff!important;
+}
+body.page-id-17 .elementor-row {
+  background-color: black!important;
 }
 .template-section {
   padding: 50px 0;
@@ -263,7 +275,7 @@ section {
   background: #e9e4dc;
 }
 #acerca {
-  background: url(../img/enredalogo.jpg) no-repeat top left;
+  background: url(../img/enredalogo.jpg) no-repeat top center;
   background-size: 100%;
   /*sólo para ejemplo*/
 }
@@ -508,7 +520,6 @@ body.home .men {
 }
 #contacto a.primero {
   color: black;
-  font-size: 1.0em;
   font-weight: bold;
 }
 #contacto ul li,
@@ -658,9 +669,6 @@ body.page-id-70 .elementor-element-6e99a94 {
   #ini2 ul {
     position: relative;
     top: 100px;
-  }
-  #acerca {
-    background: url(../img/enredalogo_lap.jpg) no-repeat top left;
   }
   #acerca div#info {
     position: absolute;

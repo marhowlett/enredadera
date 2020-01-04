@@ -154,7 +154,7 @@ h2 {
 
 /*Ajuste general*/
 body {
-    background-color: @gris!important;
+    
     .contenedor {
         max-width: 1350px;
         width: 100%;
@@ -162,8 +162,22 @@ body {
     }
     
 }
-#inner-body {
- background-color: @gris!important;
+
+body, #inner-body {
+    background-color: @gris;
+}
+body.page-id-17  {
+    background-color: black!important;  
+    #inner-body {
+        background-color: black!important;  
+    }
+    .elementor-social-icon i, .aux-master-menu .aux-menu-label {
+    color: white; 
+    color: #fff!important;
+}
+    .elementor-row {
+        background-color: black!important;
+    }
 }
 
 .template-section {
@@ -335,7 +349,7 @@ section {
     background: @gris;
 }
 #acerca {
-        background: url(../img/enredalogo.jpg) no-repeat top left;
+        background: url(../img/enredalogo.jpg) no-repeat top center;
     .contenedor {
             max-width: 1375px;
     }
@@ -613,7 +627,7 @@ animation-iteration-count: 1;
         font-size: 0.8em;
         &.primero {
             color: black;
-            font-size: 1.0em;
+           // font-size: 1.0em;
             font-weight: bold;
         }
     }

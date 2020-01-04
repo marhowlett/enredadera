@@ -20,9 +20,8 @@
 </ul>
 </div>
             <ul>
-  <li><a href="/" >Home</a></li>
-  <li><a href="/acerca">Acerca de<br>
-La Enredadera</a></li>
+  <li><a href="/" >Inicio</a></li>
+  <li><a href="/acerca">laenredadera</a></li>
   <li><a href="/proyectos">Proyectos</a></li>
   <li><a href="/entre">Entre miradas</a></li>
    <li><a href="/blog2">Blog</a></li>
