@@ -6,13 +6,13 @@
  <div class="grid grid2">
        
        <div class="col2 hvr-wobble-to-bottom-right fot1">
-           <a href="https://laenredadera.art/proyecto-columpios/"> <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/DSC_0036.png" alt="Columpios"></a>
+           <a href="https://laenredadera.art/proyecto-columpios-2"> <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/DSC_0036.png" alt="Columpios"></a>
        </div>
        <div class="col2">
            &nbsp;&nbsp;
        </div>
        <div class="col2 hvr-wobble-to-bottom-right fot2">
-          <a href="https://laenredadera.art/proyecto-polvadera/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/DSC_0035.png" alt="Polvadera"></a>
+          <a href="https://laenredadera.art/proyecto-polvadera-2/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/DSC_0035.png" alt="Polvadera"></a>
        </div>
        
 </div>
@@ -32,13 +32,13 @@
  <div class="grid grid2">
        
        <div class="col2 hvr-wobble-to-bottom-right fot4">
-          <a href="https://laenredadera.art/proyecto-bajamar/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/BotónProyBajamar.jpg" alt="Baja Mar"></a>
+          <a href="https://laenredadera.art/proyecto-bajamar-2/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/BotónProyBajamar.jpg" alt="Baja Mar"></a>
        </div>
        <div class="col2">
            &nbsp;&nbsp;
        </div>
        <div class="col2 hvr-wobble-to-bottom-right fot5">
-          <a href="https://laenredadera.art/oton%cc%83o-de-cempasuchil/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/IMG_3243.png" alt="Otoño de Cempasuchil"></a>
+          <a href="https://laenredadera.art/proyecto-otono-de-cempasuchil/"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/IMG_3243.png" alt="Otoño de Cempasuchil"></a>
        </div>
        
 </div>

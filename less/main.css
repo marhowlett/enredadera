@@ -83,6 +83,9 @@
   font-weight: 300;
   font-style: italic;
 }
+html {
+  height: 100%;
+}
 h2 {
   text-align: center;
 }
@@ -119,18 +122,18 @@ body,
   background-color: #e9e4dc;
 }
 body.page-id-17 {
-  background-color: black!important;
+  background-color: black !important;
 }
 body.page-id-17 #inner-body {
-  background-color: black!important;
+  background-color: black !important;
 }
 body.page-id-17 .elementor-social-icon i,
 body.page-id-17 .aux-master-menu .aux-menu-label {
   color: white;
-  color: #fff!important;
+  color: #fff !important;
 }
 body.page-id-17 .elementor-row {
-  background-color: black!important;
+  background-color: black !important;
 }
 .template-section {
   padding: 50px 0;
@@ -194,7 +197,7 @@ body.page-id-17 .elementor-row {
   min-height: 224px;
   width: 355px;
   border: 2px solid white;
-  display: inherit!important;
+  display: inherit !important;
 }
 #ini .banner1 {
   cursor: pointer;
@@ -274,8 +277,25 @@ body.page-id-17 .elementor-row {
 section {
   background: #e9e4dc;
 }
+.page-template-acerca,
+.page-template-acerca #inner-body {
+  height: 100%;
+}
+.page-template-acerca header,
+.page-template-acerca #inner-body header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.page-template-acerca .template-section,
+.page-template-acerca #inner-body .template-section {
+  padding: 0;
+}
 #acerca {
   background: url(../img/enredalogo.jpg) no-repeat top center;
+  position: relative;
+  z-index: -1;
+  height: 100%;
   background-size: 100%;
   /*sólo para ejemplo*/
 }
@@ -286,18 +306,18 @@ section {
   margin: 0;
   padding: 0;
 }
-#acerca .col {
-  height: 500px;
+#acerca .grid {
+  height: 50%;
 }
-#acerca .col5 {
-  margin-top: -50px;
+#acerca .grid .col {
+  height: 100%;
+  position: relative;
 }
 #acerca div#info {
   position: absolute;
   overflow: hidden;
-  width: 50%;
-  max-width: 675px;
-  height: 550px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,23 +341,25 @@ section {
 }
 #acerca p#descripcion {
   text-align: center;
-  max-width: 500px;
   transition: margin-top 0.4s;
+  padding: 15px;
+  transform: translateY(-50px);
+  transition: all 0.3s ease-in-out;
 }
 #acerca div#imagen:hover p#descripcion {
-  margin-top: 75px;
+  transform: translateY(0);
 }
 #acerca p.enre {
   display: none;
 }
 #acerca p.enre:hover {
-  display: inherit!important;
+  display: inherit !important;
 }
 .men .aux-menu-label:hover {
   text-decoration: underline;
 }
 .men a {
-  text-transform: capitalize!important;
+  text-transform: capitalize !important;
 }
 /*.men {
  margin:auto;
@@ -484,10 +506,10 @@ body.home .men {
 #entre .esg-sorting-select,
 #entre .esg-sortbutton-order,
 #entre .eg-ajax-target-container-wrapper {
-  display: none!important;
+  display: none !important;
 }
 #entre .esg-singlefilters {
-  display: none!important;
+  display: none !important;
 }
 #otoño h2,
 #otoño h3,
@@ -574,10 +596,44 @@ body.home .men {
   font-size: 0.8em;
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
-  max-width: inherit!important;
+  max-width: inherit !important;
 }
 body.page-id-70 .elementor-element-6e99a94 {
   display: none;
+}
+/***PROYECTO**/
+.aux-content-top-margin .aux-primary {
+  padding-top: 0;
+}
+#proyecto {
+  padding: 0px 0;
+}
+#proyecto h2,
+#proyecto h3,
+#proyecto p,
+#proyecto a {
+  color: black;
+  font-weight: normal;
+}
+#proyecto h3 {
+  text-align: center;
+}
+#proyecto p.text {
+  text-align: justify;
+}
+#proyecto .espacio {
+  display: block;
+}
+#proyecto a {
+  text-decoration: underline;
+  text-align: center;
+}
+#proyecto .elementor-text-editor {
+  text-align: center;
+}
+#proyecto .espacio a {
+  position: relative;
+  top: 20px;
 }
 @media screen and (max-width: 1331px) {
   #ini {
@@ -670,6 +726,9 @@ body.page-id-70 .elementor-element-6e99a94 {
     position: relative;
     top: 100px;
   }
+  #acerca {
+    background: url(../img/enredalogo_lap.jpg) no-repeat top left;
+  }
   #acerca div#info {
     position: absolute;
     width: 50%;
@@ -689,10 +748,11 @@ body.page-id-70 .elementor-element-6e99a94 {
   #acerca .col {
     height: 417px;
   }
+  #contacto {
+    background: url(../img/Enredadera_lap.jpg) no-repeat top left;
+  }
   #contacto .col3 {
     width: 75%;
-    background: url(../img/Enredadera_lap.jpg) no-repeat top left;
-    height: 485px;
   }
   #contacto .col4 {
     width: 21%;
