@@ -731,9 +731,7 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
   #acerca div#info {
     position: absolute;
-    width: 50%;
     max-width: 675px;
-    height: 468px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -742,8 +740,8 @@ body.page-id-70 .elementor-element-6e99a94 {
     overflow: hidden;
     transition: opacity 0.3s ease 0s;
   }
-  #acerca .col5 {
-    margin-top: -50px;
+  #acerca .primero {
+    margin-top: 35px;
   }
   #acerca .col {
     height: 417px;

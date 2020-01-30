@@ -24,7 +24,7 @@ La Enredadera</a></li>
    
        <div class="grid grid2">
        
-       <div class="col col5">
+       <div class="col col5 primero">
           <div id="imagen" class="logo2">
    <div id="info">
     
