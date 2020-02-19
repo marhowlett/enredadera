@@ -21,7 +21,7 @@
 </div>
             <ul>
   <li><a href="/" >Inicio</a></li>
-  <li><a href="/acerca">laenredadera</a></li>
+  <li><a class="cursiva" href="/acerca">laenredadera</a></li>
   <li><a href="/proyectos">Proyectos</a></li>
   <li><a href="/entre">Entre miradas</a></li>
    <li><a href="/blog2">Blog</a></li>

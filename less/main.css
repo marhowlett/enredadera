@@ -358,9 +358,6 @@ section {
 .men .aux-menu-label:hover {
   text-decoration: underline;
 }
-.men a {
-  text-transform: capitalize !important;
-}
 /*.men {
  margin:auto;
 		    display:block;
@@ -519,8 +516,14 @@ body.home .men {
 .aux-full-width #inner-body {
   overflow-x: inherit;
 }
+.cursiva {
+  font-style: italic;
+}
 #contacto {
   padding: inherit;
+}
+#contacto li a:hover {
+  text-decoration: underline;
 }
 #contacto .col2 {
   min-height: 212px;
