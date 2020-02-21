@@ -47,7 +47,7 @@
            <p>www.laenredadera.com</p>
             <ul>
   <li><a href="/" class="primero">Inicio</a></li>
-  <li><a href="/acerca">laenredadera</a></li>
+  <li><a href="/acerca" class="cursiva ">laenredadera</a></li>
   <li><a href="/proyectos">Proyectos</a></li>
   <li><a href="/entre">Entre miradas</a></li>
    <li><a href="/blog2">Blog</a></li>
@@ -101,7 +101,7 @@
         <div class="col4">
            <p>www.laenredadera.com</p>
             <ul>
-  <li><a href="/" >Inicio</a></li>
+  <li><a href="/" class="primero">Inicio</a></li>
   <li><a class="cursiva" href="/acerca">laenredadera</a></li>
   <li><a href="/proyectos">Proyectos</a></li>
   <li><a href="/entre">Entre miradas</a></li>
@@ -109,6 +109,51 @@
    <li><a href="/contacto">Contacto</a></li>
 </ul>
         </div>
+        </div>
+       
+</section>
+         <section id="ini3" class="template-section contenedor">
+    <div class="grid" id="mosaico">  
+      <div class="col3">
+       <div class="grid grid2">
+       <div class="banner_movil1 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       <div class="banner_movil2 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       <div class="banner_movil3 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       
+        </div>
+      <div class="grid grid2">
+       <div class="banner_movil4 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       <div class="banner_movil5 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       <div class="banner_movil6 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       </div>
+       
+       <div class="grid grid2">
+       <div class="banner_movil7 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       
+       <div class="banner_movil8 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       <div class="banner_movil9 col2 hvr-wobble-to-bottom-right">
+           &nbsp;&nbsp;
+       </div>
+       </div>
+        </div>
+        
+        
         </div>
        
 </section>

@@ -51,7 +51,7 @@ La Enredadera</a></li>
        
        
         </div>
-      <div class="grid grid2">
+      <div class="grid grid2 dos">
       
       <div class="col">
           <div id="imagen" class="logo3">

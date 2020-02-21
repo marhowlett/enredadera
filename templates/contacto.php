@@ -17,6 +17,7 @@
 <li><a href="#about"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="fb"></a></li>
 <li><a href="#about"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" alt="tw"></a></li>
 <li><a href="#about"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soundcloud_logo.png" alt="sound"></a></li>
+<li><a href="#about"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/IG.png" alt="instagram"></a></li>
 </ul>
 </div>
             <ul>
