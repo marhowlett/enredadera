@@ -2,42 +2,42 @@
     /* Template Name: Inicio */ 
     get_header();
 ?>
-    <section id="ini" class="template-section contenedor">
+    <section id="ini" class="template-section">
     <div class="grid" id="mosaico">  
-      <div class="col3">
+      <div class="col3" id="getid">
        <div class="grid grid2">
-       <div class="banner1 col2 hvr-wobble-to-bottom-right">
+       <div class="banner1 col2 hvr-wobble-to-bottom-right" id="altura">
            &nbsp;&nbsp;
        </div>
-       <div class="banner2 col2 hvr-wobble-to-bottom-right">
+       <div class="banner2 col2 hvr-wobble-to-bottom-right" id="altura">
            &nbsp;&nbsp;
        </div>
-       <div class="banner3 col2 hvr-wobble-to-bottom-right">
+       <div class="banner3 col2 hvr-wobble-to-bottom-right" id="altura">
            &nbsp;&nbsp;
        </div>
        
         </div>
       <div class="grid grid2">
-       <div class="banner4 col2 hvr-wobble-to-bottom-right">
+       <div class="banner4 col2 hvr-wobble-to-bottom-right" id="altura2">
            &nbsp;&nbsp;
        </div>
-       <div class="banner5 col2 hvr-wobble-to-bottom-right">
+       <div class="banner5 col2 hvr-wobble-to-bottom-right" id="altura2">
            &nbsp;&nbsp;
        </div>
-       <div class="banner6 col2 hvr-wobble-to-bottom-right">
+       <div class="banner6 col2 hvr-wobble-to-bottom-right" id="altura2">
            &nbsp;&nbsp;
        </div>
        </div>
        
        <div class="grid grid2">
-       <div class="banner7 col2 hvr-wobble-to-bottom-right">
+       <div class="banner7 col2 hvr-wobble-to-bottom-right" id="altura3">
            &nbsp;&nbsp;
        </div>
        
-       <div class="banner8 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
+       <div class="banner8 col2 hvr-wobble-to-bottom-right" id="altura3">
+           &nbsp;&nbsp
        </div>
-       <div class="banner9 col2 hvr-wobble-to-bottom-right">
+       <div class="banner9 col2 hvr-wobble-to-bottom-right" id="altura3">
            &nbsp;&nbsp;
        </div>
        </div>
@@ -57,7 +57,7 @@
         </div>
        
 </section>
-    <section id="ini2" class="template-section contenedor">
+ <!--   <section id="ini2" class="template-section ">
     <div class="grid" id="mosaico">  
       <div class="col3">
        <div class="grid grid2">
@@ -111,10 +111,10 @@
         </div>
         </div>
        
-</section>
-         <section id="ini3" class="template-section contenedor">
+</section>-->
+         <section id="ini3" class="template-section ">
     <div class="grid" id="mosaico">  
-      <div class="col3">
+      <div class="col3" id="mosaicoancho">
        <div class="grid grid2">
        <div class="banner_movil1 col2 hvr-wobble-to-bottom-right">
            &nbsp;&nbsp;

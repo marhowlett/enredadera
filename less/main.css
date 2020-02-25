@@ -83,6 +83,9 @@
   font-weight: 300;
   font-style: italic;
 }
+span.aux-menu-label {
+  font-family: 'Avenir Roman';
+}
 html {
   height: 100%;
 }
@@ -134,6 +137,9 @@ body.page-id-17 .aux-master-menu .aux-menu-label {
 }
 body.page-id-17 .elementor-row {
   background-color: black !important;
+}
+#menu-navigation li:nth-child(2) span {
+  font-style: italic;
 }
 .template-section {
   padding: 50px 0;
@@ -196,55 +202,66 @@ body.page-id-17 .elementor-row {
   display: inherit;
   padding: inherit;
 }
+#ini .mosaicoancho {
+  width: 80%;
+}
 #ini .col2 {
-  min-height: 224px;
-  width: 355px;
+  width: 33.33%;
   border: 2px solid white;
   display: inherit !important;
 }
 #ini .banner1 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat top left;
+  background: url(../img/I1.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.3s 0.5s;
 }
 #ini .banner2 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat top center;
+  background: url(../img/I2.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.3s 0.5s;
 }
 #ini .banner3 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat top right;
+  background: url(../img/I3.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.3s 0.5s;
 }
 #ini .banner4 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat center left;
+  background: url(../img/I4.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.5s;
 }
 #ini .banner5 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat center center;
+  background: url(../img/I5.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.20s;
 }
 #ini .banner6 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat center right;
+  background: url(../img/I6.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.35s;
 }
 #ini .banner7 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat bottom left;
+  background: url(../img/I7.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.50s;
 }
 #ini .banner8 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat bottom center;
+  background: url(../img/I8.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.65s;
 }
 #ini .banner9 {
   cursor: pointer;
-  background: url(../img/banner.jpg) no-repeat bottom right;
+  background: url(../img/I9.jpg) no-repeat;
+  background-size: cover;
   transition: all 0.6s 0.80s;
 }
 #ini .col4 {
@@ -294,7 +311,7 @@ section {
   padding: 0;
 }
 #acerca {
-  background: url(../img/enredalogo.jpg) no-repeat top center;
+  background: url(../img/enredalogo.jpg) no-repeat center center;
   position: relative;
   z-index: -1;
   height: 100%;
@@ -651,9 +668,6 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
 }
 @media screen and (max-width: 1331px) {
-  #ini {
-    display: none;
-  }
   #ini2 {
     display: inherit;
     padding: inherit;
@@ -744,7 +758,7 @@ body.page-id-70 .elementor-element-6e99a94 {
     top: 100px;
   }
   #acerca {
-    background: url(../img/enredalogo_lap.jpg) no-repeat top left;
+    background: url(../img/enredalogo_lap.jpg) no-repeat center center;
   }
   #acerca div#info {
     position: absolute;

@@ -143,7 +143,32 @@ jQuery(function ($) {
             }, 900, 'swing');
         }
     });
+    function showWidth( ele, w ) {
+    var resu;
+        resu = w*224;
+        resu = resu/1418;
+    console.log(resu);
         
+         $("#altura").css("min-height", resu+ 'px');
+        $("#altura2").css("min-height", resu+ 'px');
+         $("#altura3").css("min-height", resu+ 'px');
+    
+    }
+$( "#getid" ).click(function() {
+  showWidth( "paragraph", $( "p" ).width() );
+});
+
+  showWidth( "document", $( document ).width() );
+
+$("#getw").click(function() {
+  showWidth( "window", $( window ).width() );
+
+console.log(w);
+});
+    
+   
+
+    
     var contador=0;
     function cambiarfondo (src,pos) {
         var posicion=pos;
