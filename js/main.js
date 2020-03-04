@@ -185,76 +185,76 @@ console.log(w);
   
    
   $('.banner1').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",1);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",1);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",1);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",1);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",1);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",1);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I1.png)",1);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I1.png)",1);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I1.png)",1);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I1.png)",1);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I1.png)",1);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I1.jpg)",1);}
   );
       $('.banner2').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",2);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",2);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",2);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",2);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",2);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",2);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I2.png)",2);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I2.png)",2);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I2.png)",2);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I2.png)",2);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I2.png)",2);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I2.jpg)",2);}
   );
       $('.banner3').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",3);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",3);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",3);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",3);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",3);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",3);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I3.png)",3);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I3.png)",3);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I3.png)",3);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I3.png)",3);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I3.png)",3);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I3.jpg)",3);}
   );
       $('.banner4').toggle(
-   function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",4);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",4);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",4);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",4);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",4);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",4);}
+   function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I4.png)",4);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I4.png)",4);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I4.png)",4);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I4.png)",4);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I4.png)",4);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I4.jpg)",4);}
   );
       $('.banner5').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",5);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",5);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",5);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",5);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",5);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",5);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I5.png)",5);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I5.png)",5);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I5.png)",5);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I5.png)",5);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I5.png)",5);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I5.jpg)",5);}
   );
       $('.banner6').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",6);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",6);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",6);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",6);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",6);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",6);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I6.png)",6);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I6.png)",6);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I6.png)",6);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I6.png)",6);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I6.png)",6);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I6.jpg)",6);}
   );
       $('.banner7').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",7);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",7);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",7);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",7);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",7);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",7);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I7.png)",7);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I7.png)",7);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I7.png)",7);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I7.png)",7);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I7.png)",7);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I7.jpg)",7);}
   );
       $('.banner8').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",8);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",8);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",8);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",8);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",8);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",8);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I8.png)",8);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I8.png)",8);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I8.png)",8);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I8.png)",8);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I8.png)",8);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I8.jpg)",8);}
   );
       $('.banner9').toggle(
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner2.jpg)",9);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner3.jpg)",9);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner4.jpg)",9);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner5.jpg)",9);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner6.jpg)",9);},
-    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/banner.jpg)",9);}
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG1/I9.png)",9);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG2/I9.png)",9);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG3/I9.png)",9);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG4/I9.png)",9);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG5/I9.png)",9);},
+    function(){cambiarfondo("url(https://laenredadera.art/wp-content/themes/enredadera/img/IMG6/I9.jpg)",9);}
   );
     
 

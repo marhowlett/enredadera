@@ -3,6 +3,7 @@
     get_header();
 ?>
  <section id="proyectos" class="template-section contenedor">
+<!--
  <div class="grid grid2">
        
        <div class="col2 hvr-wobble-to-bottom-right fot1">
@@ -16,6 +17,7 @@
        </div>
        
 </div>
+
  <div class="grid grid2">
        
        <div class="col2">
@@ -42,6 +44,10 @@
        </div>
        
 </div>
+ 
+-->
+<?php echo do_shortcode( '[rev_slider alias="slider-1"]' ); ?>
+
 </section>
 <?php 
     get_footer();
