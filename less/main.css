@@ -560,7 +560,7 @@ body.home .men {
 #contacto .col4 {
   width: 20%;
   position: relative;
-  right: 50px;
+  right: 30px;
 }
 #contacto a {
   color: #a0a0a0;
@@ -617,9 +617,6 @@ body.home .men {
   font-weight: bold;
   position: relative;
   top: 160px;
-}
-#contacto p span {
-  font-size: 0.8em;
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: inherit !important;
@@ -817,7 +814,7 @@ body.page-id-70 .elementor-element-6e99a94 {
     padding: inherit;
   }
   body.home #ini3 .col2 {
-    min-height: 214px;
+    min-height: 213.10014104372357px;
     WIDTH: 120PX;
     border: 2px solid white;
     display: inherit !important;
