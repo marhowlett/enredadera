@@ -145,13 +145,15 @@ jQuery(function ($) {
     });
     function showWidth( ele, w ) {
     var resu;
+       
+        console.log(w);
         resu = w*224;
         resu = resu/1418;
     console.log(resu);
         
-         $("#altura").css("min-height", resu+ 'px');
-        $("#altura2").css("min-height", resu+ 'px');
-         $("#altura3").css("min-height", resu+ 'px');
+         $(".altura").css("min-height", resu+ 'px');
+        $(".altura2").css("min-height", resu+ 'px');
+         $(".altura3").css("min-height", resu+ 'px');
     
     }
 $( "#getid" ).click(function() {

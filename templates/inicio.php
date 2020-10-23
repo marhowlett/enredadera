@@ -2,164 +2,63 @@
     /* Template Name: Inicio */ 
     get_header();
 ?>
-    <section id="ini" class="template-section">
-    <div class="grid" id="mosaico">  
-      <div class="col3" id="getid">
-       <div class="grid grid2">
-       <div class="banner1 col2 hvr-wobble-to-bottom-right" id="altura">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner2 col2 hvr-wobble-to-bottom-right" id="altura">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner3 col2 hvr-wobble-to-bottom-right" id="altura">
-           &nbsp;&nbsp;
-       </div>
-       
-        </div>
-      <div class="grid grid2">
-       <div class="banner4 col2 hvr-wobble-to-bottom-right" id="altura2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner5 col2 hvr-wobble-to-bottom-right" id="altura2">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner6 col2 hvr-wobble-to-bottom-right" id="altura2">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-       
-       <div class="grid grid2">
-       <div class="banner7 col2 hvr-wobble-to-bottom-right" id="altura3">
-           &nbsp;&nbsp;
-       </div>
-       
-       <div class="banner8 col2 hvr-wobble-to-bottom-right" id="altura3">
-           &nbsp;&nbsp
-       </div>
-       <div class="banner9 col2 hvr-wobble-to-bottom-right" id="altura3">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-        </div>
-        
-        <div class="col4">
-           <p>www.laenredadera.com</p>
-            <ul>
-  <li><a href="/" class="primero">Inicio</a></li>
-  <li><a href="/acerca" class="cursiva ">laenredadera</a></li>
-  <li><a href="/proyectos">Proyectos</a></li>
-  <li><a href="/entre">Entre miradas</a></li>
-   <li><a href="/blog2">Blog</a></li>
-   <li><a href="/contacto">Contacto</a></li>
-</ul>
-        </div>
-        </div>
-       
-</section>
- <!--   <section id="ini2" class="template-section ">
-    <div class="grid" id="mosaico">  
-      <div class="col3">
-       <div class="grid grid2">
-       <div class="banner_lap1 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_lap2 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_lap3 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       
-        </div>
-      <div class="grid grid2">
-       <div class="banner_lap4 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_lap5 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_lap6 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-       
-       <div class="grid grid2">
-       <div class="banner_lap7 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       
-       <div class="banner_lap8 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_lap9 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-        </div>
-        
-        <div class="col4">
-           <p>www.laenredadera.com</p>
-            <ul>
-  <li><a href="/" class="primero">Inicio</a></li>
-  <li><a class="cursiva" href="/acerca">laenredadera</a></li>
-  <li><a href="/proyectos">Proyectos</a></li>
-  <li><a href="/entre">Entre miradas</a></li>
-   <li><a href="/blog2">Blog</a></li>
-   <li><a href="/contacto">Contacto</a></li>
-</ul>
-        </div>
-        </div>
-       
-</section>-->
-         <section id="ini3" class="template-section ">
-    <div class="grid" id="mosaico">  
-      <div class="col3" id="mosaicoancho">
-       <div class="grid grid2">
-       <div class="banner_movil1 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_movil2 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_movil3 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       
-        </div>
-      <div class="grid grid2">
-       <div class="banner_movil4 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_movil5 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_movil6 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-       
-       <div class="grid grid2">
-       <div class="banner_movil7 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       
-       <div class="banner_movil8 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       <div class="banner_movil9 col2 hvr-wobble-to-bottom-right">
-           &nbsp;&nbsp;
-       </div>
-       </div>
-        </div>
-        
-        
-        </div>
-       
-</section>
-      
+<section id="ini" class="template-section">
+    <div class="grid" id="mosaico">
+        <div class="col3" id="getid">
+            <div class="grid grid2">
+                <div data-celda="1" class="celda celda_1 col2 hvr-wobble-to-bottom-right altura">
+                    &nbsp;&nbsp;
+                </div>
+                <div data-celda="2" class="celda celda_2 col2 hvr-wobble-to-bottom-right altura">
+                    &nbsp;&nbsp;
+                </div>
+                <div data-celda="3" class="celda celda_3 col2 hvr-wobble-to-bottom-right altura">
+                    &nbsp;&nbsp;
+                </div>
 
- 
+            </div>
+            <div class="grid grid2">
+                <div data-celda="4" class="celda celda_4 col2 hvr-wobble-to-bottom-right altura2">
+                    &nbsp;&nbsp;
+                </div>
+                <div data-celda="5" class="celda celda_5 col2 hvr-wobble-to-bottom-right altura2">
+                    &nbsp;&nbsp;
+                </div>
+                <div data-celda="6" class="celda celda_6 col2 hvr-wobble-to-bottom-right altura2">
+                    &nbsp;&nbsp;
+                </div>
+            </div>
+
+            <div class="grid grid2">
+                <div data-celda="7" class="celda celda_7 col2 hvr-wobble-to-bottom-right altura3">
+                    &nbsp;&nbsp;
+                </div>
+
+                <div data-celda="8" class="celda celda_8 col2 hvr-wobble-to-bottom-right altura3">
+                    &nbsp;&nbsp;
+                </div>
+                <div data-celda="9" class="celda celda_9 col2 hvr-wobble-to-bottom-right altura3">
+                    &nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+
+        <div class="col4">
+            <p>www.laenredadera.com</p>
+            <ul>
+                <li><a href="/" class="primero">Inicio</a></li>
+                <li><a href="/acerca" class="cursiva ">laenredadera</a></li>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <li><a href="/entre">Entre miradas</a></li>
+                <li><a href="/blog2">Blog</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+
 <?php 
     get_footer();
 ?>
