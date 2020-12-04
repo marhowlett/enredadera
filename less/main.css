@@ -510,9 +510,6 @@ body.home .men {
   animation-iteration-count: 1;
 }
 /*wobble*/
-#entre {
-  padding: inherit;
-}
 #entre .esg-grid .mainul li.eg-monroe-wrapper {
   background: #1b1b1b;
 }
@@ -550,9 +547,10 @@ body.home .men {
   height: 635px;
   background: url(../img/Enredadera.jpg) no-repeat left;
   background-size: 100%;
+  width: 82%;
 }
 #contacto .col4 {
-  width: 20%;
+  width: 18%;
   position: relative;
   right: 30px;
 }
@@ -614,6 +612,10 @@ body.home .men {
   position: relative;
   top: 160px;
 }
+#contacto p span {
+  position: relative;
+  left: 50px;
+}
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: inherit !important;
 }
@@ -662,6 +664,18 @@ body.page-id-70 .elementor-element-6e99a94 {
 @media screen and (min-width: 1214px) {
   #contacto .men2 li a {
     padding: 10px 10px;
+  }
+  #contacto p span {
+    position: relative;
+    left: 0px;
+  }
+  #contacto .col4 {
+    width: 18%;
+    position: relative;
+    right: 0px;
+  }
+  #contacto .col3 {
+    width: 82%;
   }
 }
 @media screen and (max-width: 1331px) {
@@ -779,10 +793,10 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
   #contacto .col3 {
     background: url(../img/Enredadera_lap.jpg) no-repeat top left;
-    width: 75%;
+    width: 77%;
   }
   #contacto .col4 {
-    width: 21%;
+    width: 18%;
     position: relative;
     right: 0px;
     top: -115px;
@@ -803,7 +817,6 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
   body.home .grid .col3 {
     width: 100%;
-    margin-top: 60px;
   }
   body.home #ini3 {
     display: inherit;

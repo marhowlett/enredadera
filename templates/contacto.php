@@ -15,12 +15,15 @@
             <div class="men2">
 <ul>
  
-   <li><a href="<?php echo get_custom('youtube'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtube.png" alt="youtube"></a></li>
+   
  
-<li><a href="<?php echo get_custom('facebook'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="fb"></a></li>
-<li><a href="<?php echo get_custom('twitter'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" alt="tw"></a></li>
-<li><a href="<?php echo get_custom('soundcloud'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soundcloud_logo.png" alt="sound"></a></li>
+<!--<li><a href="<?php echo get_custom('facebook'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="fb"></a></li>-->
+
+
 <li><a href="<?php echo get_custom('instagram'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/IG.png" alt="instagram"></a></li>
+<li><a href="<?php echo get_custom('soundcloud'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soundcloud_logo.png" alt="sound"></a></li>
+<li><a href="<?php echo get_custom('twitter'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" alt="tw"></a></li>
+<li><a href="<?php echo get_custom('youtube'); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtube.png" alt="youtube"></a></li>
 </ul>
 </div>
             <ul>
