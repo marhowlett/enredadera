@@ -1,0 +1,13 @@
+{
+    "compile-hero": {
+      "disable-compile-files-on-did-save-code": false,
+      "notification-toggle": false,
+      "javascript-output-directory": "./out",
+      "javascript-output-toggle": false, 
+      "less-output-directory": "./../css",   
+      "generate-minified-css" : true,  
+      "ignore": ["less/responsive.less", "less/vars.less",],
+      "watch": ["less/main.less", "less/mosaico.less"]
+    },
+    "compile-hero.disable-compile-files-on-did-save-code": false
+  }

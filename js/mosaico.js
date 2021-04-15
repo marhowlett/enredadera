@@ -7,7 +7,7 @@
  */
 
 
-jQuery(function ($) {
+jQuery(function($) {
 
     // Setup
 
@@ -45,13 +45,12 @@ jQuery(function ($) {
         $celda.attr("data-fondo_actual", fondo_actual); // bandera en celda
 
         // Establecer fondo a la celda
-        if($(document).width() < 760){
+        if ($(document).width() < 760) {
             path = url_base + "banner" + fondo_actual + "movil.jpg";
+        } else {
+            path = url_base + "IMG" + fondo_actual + "/I" + $celda.data('celda') + ".jpg";
         }
-        else{
-          path = url_base + "IMG" + fondo_actual + "/I" + $celda.data('celda') + ".jpg";
-        }
-        
+
 
         $celda.css("background-image", "url(" + path + ")");
 
@@ -62,7 +61,7 @@ jQuery(function ($) {
 
     //Agregar el evento clic a cada celda
 
-    $(".celda").click(function (e) {
+    $(".celda").click(function(e) {
         e.preventDefault();
 
         CambiarFondo($(this));
@@ -76,20 +75,16 @@ jQuery(function ($) {
     function fixWidth(ele, viewport) {
         var resu;
 
-        if (viewport  < 700) {
-            
+        if (viewport < 700) {
+
             resu = viewport / 352;
             resu = (630 * resu) / 3;
 
-        }
-        
-        else if(viewport > 701 && viewport < 900){           
+        } else if (viewport > 701 && viewport < 900) {
             resu = viewport / 900;
             resu = (535 * resu) / 3;
-        }
-        
-        else {
-            resu = viewport  * 224;
+        } else {
+            resu = viewport * 224;
             resu = resu / 1418;
         }
 
@@ -99,14 +94,14 @@ jQuery(function ($) {
 
     }
 
-    $("#getid").click(function () {
+    $("#getid").click(function() {
         fixWidth("document", $(document).width());
     });
 
     fixWidth("document", $(document).width());
 
     // Ajusta las celdas en cada cambio de tamaño de la pantalla
-    $(window).resize(function () {
+    $(window).resize(function() {
         fixWidth("document", $(document).width());
     });
 
