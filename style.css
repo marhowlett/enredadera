@@ -12,3 +12,4 @@ Tags: one-column,two-columns, three-columns, left-sidebar, right-sidebar
 Text Domain: phlox-pro-child
 ================================================================================= */
 @import url('less/main.css');
+@import url('less/mosaico.css');
