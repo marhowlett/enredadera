@@ -126,6 +126,26 @@ h2 {
     text-align: center;
 }
 
+.aux-burger.aux-thick-large .mid-line {
+    margin: 6px 0;
+}
+
+.aux-burger[class*="thick"] .mid-line, 
+.aux-burger[class*="thick"]::before, 
+.aux-burger[class*="thick"]::after {
+    border-width: 3px;
+}
+
+.page-template-acerca {
+    .aux-burger .mid-line, .aux-burger::before, .aux-burger::after {
+        border-color: #fff;
+    }
+
+    .aux-burger::before{
+        
+    }
+}
+
 .hentry {   
     margin-top: 51px;
 }

@@ -9,16 +9,17 @@
 }
 
 @media screen and (min-width: 1214px) {
-    #contacto{
+    #contacto {
         .men2 li a {
-        padding: 10px 10px;
-    }
-        p span {
-    position: relative;
-    left: 0px;
-}
-        
+            padding: 10px 10px;
         }
+
+        p span {
+            position: relative;
+            left: 0px;
+        }
+
+    }
 
 }
 
@@ -189,6 +190,13 @@
 
 @media (max-width: 768px) {
 
+    .elementor-social-icons-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -50px;
+    }
+
     #ini .col4 {
         display: none;
     }
@@ -252,14 +260,12 @@
     }
 
     body.page-id-17 {
-        .aux-burger.aux-thick-large {
-            background-color: white;
-        }
 
         #acerca {
             height: 1500px;
-            background: url(../img/enredalogomovil.jpg) no-repeat center;
-
+            background: url(../img/enredalogomovil.jpg) no-repeat center top;
+            background-size: contain;
+            background-attachment: fixed;
             .grid .col {
                 height: 100%;
                 width: 100%;
