@@ -105,6 +105,22 @@ html {
 h2 {
   text-align: center;
 }
+.aux-burger.aux-thick-large .mid-line {
+  margin: 6px 0;
+}
+.aux-burger[class*="thick"] .mid-line,
+.aux-burger[class*="thick"]::before,
+.aux-burger[class*="thick"]::after {
+  border-width: 3px;
+}
+.page-template-acerca .aux-burger .mid-line,
+.page-template-acerca .aux-burger::before,
+.page-template-acerca .aux-burger::after {
+  border-color: #fff;
+}
+.hentry {
+  margin-top: 51px;
+}
 /*Ajuste de FullWidth*/
 .page-template .container {
   max-width: 100%;
@@ -126,6 +142,50 @@ h2 {
 }
 .grid .col4 {
   width: 20%;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: 'principal navegacion';
+}
+.main-grid .principal {
+  grid-area: principal;
+}
+.main-grid .menu {
+  grid-area: navegacion;
+}
+.cuadricula {
+  display: grid;
+}
+.cuadricula.two {
+  grid-template-areas: 'img_1 img_2' 'img_3 img_4';
+}
+.cuadricula .celda_1 {
+  grid-area: img_1;
+}
+.cuadricula .celda_2 {
+  grid-area: img_2;
+}
+.cuadricula .celda_3 {
+  grid-area: img_3;
+}
+.cuadricula .celda_4 {
+  grid-area: img_4;
+}
+.cuadricula .celda_5 {
+  grid-area: img_5;
+}
+.cuadricula .celda_6 {
+  grid-area: img_6;
+}
+.cuadricula .celda_7 {
+  grid-area: img_7;
+}
+.cuadricula .celda_8 {
+  grid-area: img_8;
+}
+.cuadricula .celda_9 {
+  grid-area: img_9;
 }
 /*Ajuste general*/
 body .contenedor {
@@ -279,6 +339,9 @@ body.page-id-17 .elementor-row {
   width: 20%;
   position: relative;
   right: 50px;
+}
+#ini .navegacion {
+  padding-right: 50px;
 }
 #ini a {
   color: #a0a0a0;
@@ -808,7 +871,20 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
 }
 @media (max-width: 768px) {
+  .elementor-social-icons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -50px;
+  }
   #ini .col4 {
+    display: none;
+  }
+  #ini .main-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'principal' 'navegacion';
+  }
+  #ini .navegacion {
     display: none;
   }
   body.home .men {
@@ -851,12 +927,11 @@ body.page-id-70 .elementor-element-6e99a94 {
   body.home #ini3 li a:hover {
     text-decoration: underline;
   }
-  body.page-id-17 .aux-burger.aux-thick-large {
-    background-color: white;
-  }
   body.page-id-17 #acerca {
     height: 1500px;
-    background: url(../img/enredalogomovil.jpg) no-repeat center;
+    background: url(../img/enredalogomovil.jpg) no-repeat center top;
+    background-size: contain;
+    background-attachment: fixed;
   }
   body.page-id-17 #acerca .grid .col {
     height: 100%;

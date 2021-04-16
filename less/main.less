@@ -197,6 +197,57 @@ h2 {
     }
 }
 
+.main-grid {
+
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 'principal navegacion';
+
+    .principal {
+        grid-area: principal;
+    }
+
+    .menu {
+        grid-area: navegacion;
+    }
+}
+
+.cuadricula {
+    display: grid;    
+
+    &.two {
+        grid-template-areas: 'img_1 img_2' 'img_3 img_4';
+    }   
+
+    .celda_1 {
+        grid-area: img_1;
+    }    
+    .celda_2 {
+        grid-area: img_2;
+    }
+    .celda_3 {
+        grid-area: img_3;
+    }
+    .celda_4 {
+        grid-area: img_4;
+    }
+    .celda_5 {
+        grid-area: img_5;
+    }
+    .celda_6 {
+        grid-area: img_6;
+    }
+    .celda_7 {
+        grid-area: img_7;
+    }
+    .celda_8 {
+        grid-area: img_8;
+    }
+    .celda_9 {
+        grid-area: img_9;
+    }
+}
+
 /*Ajuste general*/
 body {
 
@@ -315,6 +366,7 @@ font-style: italic;
         font-family: 'Avenir Roman';
     }
 }
+
 #ini {
     display: inherit;
     padding: inherit;
@@ -397,6 +449,10 @@ font-style: italic;
         width: 20%;
         position: relative;
         right: 50px;
+    }
+
+    .navegacion {        
+        padding-right: 50px;
     }
 
     a {

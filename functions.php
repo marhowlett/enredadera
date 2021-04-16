@@ -17,6 +17,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function theme_js() {   
 
     wp_enqueue_script( 'main_js', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_script( 'webp', get_stylesheet_directory_uri() . '/js/modernizr-webp.js', array( 'jquery' ), '1.0', true );
     
     if ( is_front_page() ) {
         wp_enqueue_script( 'mosaico', get_stylesheet_directory_uri() . '/js/mosaico.js', array( 'jquery' ), '1.0', true );

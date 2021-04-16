@@ -1,52 +1,106 @@
-.celda_1 {
+.webp .celda_1 {
+  cursor: pointer;
+  background: url(../img/IMG6/I1.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp .celda_2 {
+  cursor: pointer;
+  background: url(../img/IMG6/I2.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp .celda_3 {
+  cursor: pointer;
+  background: url(../img/IMG6/I3.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp .celda_4 {
+  cursor: pointer;
+  background: url(../img/IMG6/I4.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.webp .celda_5 {
+  cursor: pointer;
+  background: url(../img/IMG6/I5.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.2s;
+}
+.webp .celda_6 {
+  cursor: pointer;
+  background: url(../img/IMG6/I6.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.35s;
+}
+.webp .celda_7 {
+  cursor: pointer;
+  background: url(../img/IMG6/I7.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.webp .celda_8 {
+  cursor: pointer;
+  background: url(../img/IMG6/I8.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.65s;
+}
+.webp .celda_9 {
+  cursor: pointer;
+  background: url(../img/IMG6/I9.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.8s;
+}
+.no-webp .celda_1 {
   cursor: pointer;
   background: url(../img/IMG6/I1.jpg) no-repeat;
   background-size: cover;
   transition: all 0.3s 0.5s;
 }
-.celda_2 {
+.no-webp .celda_2 {
   cursor: pointer;
   background: url(../img/IMG6/I2.jpg) no-repeat;
   background-size: cover;
   transition: all 0.3s 0.5s;
 }
-.celda_3 {
+.no-webp .celda_3 {
   cursor: pointer;
   background: url(../img/IMG6/I3.jpg) no-repeat;
   background-size: cover;
   transition: all 0.3s 0.5s;
 }
-.celda_4 {
+.no-webp .celda_4 {
   cursor: pointer;
   background: url(../img/IMG6/I4.jpg) no-repeat;
   background-size: cover;
   transition: all 0.6s 0.5s;
 }
-.celda_5 {
+.no-webp .celda_5 {
   cursor: pointer;
   background: url(../img/IMG6/I5.jpg) no-repeat;
   background-size: cover;
   transition: all 0.6s 0.2s;
 }
-.celda_6 {
+.no-webp .celda_6 {
   cursor: pointer;
   background: url(../img/IMG6/I6.jpg) no-repeat;
   background-size: cover;
   transition: all 0.6s 0.35s;
 }
-.celda_7 {
+.no-webp .celda_7 {
   cursor: pointer;
   background: url(../img/IMG6/I7.jpg) no-repeat;
   background-size: cover;
   transition: all 0.6s 0.5s;
 }
-.celda_8 {
+.no-webp .celda_8 {
   cursor: pointer;
   background: url(../img/IMG6/I8.jpg) no-repeat;
   background-size: cover;
   transition: all 0.6s 0.65s;
 }
-.celda_9 {
+.no-webp .celda_9 {
   cursor: pointer;
   background: url(../img/IMG6/I9.jpg) no-repeat;
   background-size: cover;
@@ -64,34 +118,65 @@
     border: 2px solid white;
     display: inherit !important;
   }
-  .celda_1 {
+  .webp .celda_1 {
+    background: url(../img/banner1movil.webp) no-repeat top left;
+  }
+  .webp .celda_2 {
+    background: url(../img/banner1movil.webp) no-repeat top center;
+  }
+  .webp .celda_3 {
+    background: url(../img/banner1movil.webp) no-repeat top right;
+  }
+  .webp .celda_4 {
+    background: url(../img/banner1movil.webp) no-repeat center left;
+  }
+  .webp .celda_5 {
+    background: url(../img/banner1movil.webp) no-repeat center center;
+  }
+  .webp .celda_6 {
+    cursor: pointer;
+    background: url(../img/banner1movil.webp) no-repeat center right;
+  }
+  .webp .celda_7 {
+    cursor: pointer;
+    background: url(../img/banner1movil.webp) no-repeat bottom left;
+  }
+  .webp .celda_8 {
+    cursor: pointer;
+    background: url(../img/banner1movil.webp) no-repeat bottom center;
+  }
+  .webp .celda_9 {
+    cursor: pointer;
+    background: url(../img/banner1movil.webp) no-repeat bottom right;
+  }
+  .no-webp .celda_1 {
     background: url(../img/banner1movil.jpg) no-repeat top left;
   }
-  .celda_2 {
+  .no-webp .celda_2 {
     background: url(../img/banner1movil.jpg) no-repeat top center;
   }
-  .celda_3 {
+  .no-webp .celda_3 {
     background: url(../img/banner1movil.jpg) no-repeat top right;
   }
-  .celda_4 {
+  .no-webp .celda_4 {
     background: url(../img/banner1movil.jpg) no-repeat center left;
   }
-  .celda_5 {
+  .no-webp .celda_5 {
     background: url(../img/banner1movil.jpg) no-repeat center center;
   }
-  .celda_6 {
+  .no-webp .celda_6 {
     cursor: pointer;
     background: url(../img/banner1movil.jpg) no-repeat center right;
   }
-  .celda_7 {
+  .no-webp .celda_7 {
     cursor: pointer;
     background: url(../img/banner1movil.jpg) no-repeat bottom left;
   }
-  .celda_8 {
+  .no-webp .celda_8 {
     cursor: pointer;
     background: url(../img/banner1movil.jpg) no-repeat bottom center;
   }
-  .celda_9 {
+  .no-webp .celda_9 {
     cursor: pointer;
     background: url(../img/banner1movil.jpg) no-repeat bottom right;
   }
