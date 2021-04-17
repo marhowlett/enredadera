@@ -2,7 +2,7 @@
     /* Template Name: Inicio */ 
     get_header();
 ?>
-<section id="ini" class="template-section">
+<!-- <section id="ini" class="template-section">
 
     <div class="grid" id="mosaico">
 
@@ -59,7 +59,7 @@
         </div>
     </div>
 
-</section>
+</section> -->
 
 <section id="ini" class="template-section">
 

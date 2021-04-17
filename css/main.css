@@ -406,6 +406,13 @@ section {
   height: 100%;
   position: relative;
 }
+#acerca .cuadricula {
+  height: 100%;
+}
+#acerca .cuadricula .col {
+  height: 100%;
+  position: relative;
+}
 #acerca div#info {
   position: absolute;
   overflow: hidden;
@@ -939,6 +946,10 @@ body.page-id-70 .elementor-element-6e99a94 {
   }
   body.page-id-17 #acerca .dos {
     margin-top: 784px;
+  }
+  body.page-id-17 #acerca .cuadricula.two {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'img_1' 'img_2' 'img_3' 'img_4';
   }
   #proyectos .fot3 {
     position: relative;

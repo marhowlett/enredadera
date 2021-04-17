@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section id="acerca" class="template-section contenedor">
+<!-- <section id="acerca" class="template-section contenedor">
 
   <div class="grid grid2">
 
@@ -62,12 +62,11 @@
 
   </div>
 
-</section>
-
+</section> -->
 
 <section id="acerca" class="template-section contenedor">
 
-  <div class="cuadricula">    
+  <div class="cuadricula two">    
 
     <div class="celda_1 col primero">
       <div id="imagen" class="logo2">

@@ -213,6 +213,7 @@ h2 {
 }
 
 .cuadricula {
+    
     display: grid;    
 
     &.two {
@@ -539,6 +540,14 @@ section {
 
     }
 
+    .cuadricula {
+        height: 100%;
+        .col {
+            height: 100%;
+            position: relative;
+        }        
+    }
+
 
     div#info {
         position: absolute;
@@ -803,8 +812,10 @@ body.home {
     font-style: italic;
     
 }
+
 #contacto {
     padding: inherit;
+
 li a:hover {
         text-decoration: underline;
     }
