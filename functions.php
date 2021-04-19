@@ -21,7 +21,7 @@ function theme_js() {
     
     if ( is_front_page() ) {
         wp_enqueue_script( 'mosaico', get_stylesheet_directory_uri() . '/js/mosaico.js', array( 'jquery' ), '1.0', true );
-        wp_enqueue_style( 'mosaico', get_stylesheet_directory_uri()  . '/less/mosaico.min.css', array('bootstrap'), $version );
+        wp_enqueue_style( 'galeria', get_stylesheet_directory_uri()  . '/css/mosaico.min.css', '1.0');
     }
 
 }

@@ -209,11 +209,32 @@ h2 {
 
     .menu {
         grid-area: navegacion;
+
+        &.flex {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .iconos {
+            display: flex;
+            flex-direction: row-reverse;                    
+        }
+
+        a {
+            padding: 10px;
+            color: black;
+            display: block;
+            text-decoration: none;
+        }
     }
 }
 
 .cuadricula {
-    
+
     display: grid;    
 
     &.two {
@@ -231,22 +252,7 @@ h2 {
     }
     .celda_4 {
         grid-area: img_4;
-    }
-    .celda_5 {
-        grid-area: img_5;
-    }
-    .celda_6 {
-        grid-area: img_6;
-    }
-    .celda_7 {
-        grid-area: img_7;
-    }
-    .celda_8 {
-        grid-area: img_8;
-    }
-    .celda_9 {
-        grid-area: img_9;
-    }
+    }   
 }
 
 /*Ajuste general*/
@@ -819,6 +825,7 @@ body.home {
 li a:hover {
         text-decoration: underline;
     }
+
     .col2 {
         min-height: 212px;
         width: 355px;
@@ -837,6 +844,22 @@ li a:hover {
         right: 30px;
     }
 
+    .main-grid {
+        grid-template-columns: 82% 18%;
+    }
+
+    .principal {
+        height: 635px;
+        background: url(../img/Enredadera.jpg) no-repeat left;
+        background-size: 100%;            
+    }  
+        
+    .box {
+        padding: 20px 30px 0 10px;
+    }
+  
+    
+
     a {
         color: @grisoscuro;
         font-size: 0.8em;
@@ -853,10 +876,10 @@ li a:hover {
         text-align: right;
     }
 
-    ul {
-        position: relative;
-        top: 100px;
-    }
+    // ul {
+    //     position: relative;
+    //     top: 100px;
+    // }
 
     .men2 {
         margin: auto;
@@ -906,13 +929,13 @@ li a:hover {
         text-align: right;
         font-size: 1em;
         font-weight: bold;
-        position: relative;
-        top: 160px;
+        //position: relative;
+        //top: 160px;
 
         span {
          //   font-size: 0.8em;
                 position: relative;
-    left: 50px;
+                left: 50px;
         }
     }
 }
