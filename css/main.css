@@ -266,60 +266,6 @@ body.page-id-17 .elementor-row {
   border: 2px solid white;
   display: inherit !important;
 }
-#ini .banner1 {
-  cursor: pointer;
-  background: url(../img/IMG6/I1.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.3s 0.5s;
-}
-#ini .banner2 {
-  cursor: pointer;
-  background: url(../img/IMG6/I2.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.3s 0.5s;
-}
-#ini .banner3 {
-  cursor: pointer;
-  background: url(../img/IMG6/I3.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.3s 0.5s;
-}
-#ini .banner4 {
-  cursor: pointer;
-  background: url(../img/IMG6/I4.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.5s;
-}
-#ini .banner5 {
-  cursor: pointer;
-  background: url(../img/IMG6/I5.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.2s;
-}
-#ini .banner6 {
-  cursor: pointer;
-  background: url(../img/IMG6/I6.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.35s;
-}
-#ini .banner7 {
-  cursor: pointer;
-  background: url(../img/IMG6/I7.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.5s;
-}
-#ini .banner8 {
-  cursor: pointer;
-  background: url(../img/IMG6/I8.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.65s;
-}
-#ini .banner9 {
-  cursor: pointer;
-  background: url(../img/IMG6/I9.jpg) no-repeat;
-  background-size: cover;
-  transition: all 0.6s 0.8s;
-}
 #ini .col4 {
   width: 20%;
   position: relative;
@@ -370,7 +316,6 @@ section {
   padding: 0;
 }
 #acerca {
-  background: url(../img/enredalogo.jpg) no-repeat center center;
   position: relative;
   z-index: -1;
   height: 100%;
@@ -442,6 +387,127 @@ section {
 }
 .men .aux-menu-label:hover {
   text-decoration: underline;
+}
+/*Ajuste imágenes para webp*/
+.webp #ini .banner1 {
+  cursor: pointer;
+  background: url(../img/IMG6/I1.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp #ini .banner2 {
+  cursor: pointer;
+  background: url(../img/IMG6/I2.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp #ini .banner3 {
+  cursor: pointer;
+  background: url(../img/IMG6/I3.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.webp #ini .banner4 {
+  cursor: pointer;
+  background: url(../img/IMG6/I4.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.webp #ini .banner5 {
+  cursor: pointer;
+  background: url(../img/IMG6/I5.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.2s;
+}
+.webp #ini .banner6 {
+  cursor: pointer;
+  background: url(../img/IMG6/I6.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.35s;
+}
+.webp #ini .banner7 {
+  cursor: pointer;
+  background: url(../img/IMG6/I7.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.webp #ini .banner8 {
+  cursor: pointer;
+  background: url(../img/IMG6/I8.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.65s;
+}
+.webp #ini .banner9 {
+  cursor: pointer;
+  background: url(../img/IMG6/I9.webp) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.8s;
+}
+.webp #acerca {
+  background: url(../img/enredalogo.webp) no-repeat center center;
+}
+.webp #contacto .principal {
+  background: url(../img/Enredadera.webp) no-repeat left;
+}
+.no-webp #ini .banner1 {
+  cursor: pointer;
+  background: url(../img/IMG6/I1.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.no-webp #ini .banner2 {
+  cursor: pointer;
+  background: url(../img/IMG6/I2.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.no-webp #ini .banner3 {
+  cursor: pointer;
+  background: url(../img/IMG6/I3.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.3s 0.5s;
+}
+.no-webp #ini .banner4 {
+  cursor: pointer;
+  background: url(../img/IMG6/I4.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.no-webp #ini .banner5 {
+  cursor: pointer;
+  background: url(../img/IMG6/I5.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.2s;
+}
+.no-webp #ini .banner6 {
+  cursor: pointer;
+  background: url(../img/IMG6/I6.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.35s;
+}
+.no-webp #ini .banner7 {
+  cursor: pointer;
+  background: url(../img/IMG6/I7.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.5s;
+}
+.no-webp #ini .banner8 {
+  cursor: pointer;
+  background: url(../img/IMG6/I8.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.65s;
+}
+.no-webp #ini .banner9 {
+  cursor: pointer;
+  background: url(../img/IMG6/I9.jpg) no-repeat;
+  background-size: cover;
+  transition: all 0.6s 0.8s;
+}
+.no-webp #acerca {
+  background: url(../img/enredalogo.jpg) no-repeat center center;
+}
+.no-webp #contacto .principal {
+  background: url(../img/Enredadera.jpg) no-repeat left;
 }
 /*.men {
  margin:auto;
@@ -612,7 +678,6 @@ body.home .men {
 }
 #contacto .principal {
   height: 635px;
-  background: url(../img/Enredadera.jpg) no-repeat left;
   background-size: 100%;
 }
 #contacto .menu {
