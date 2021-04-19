@@ -154,21 +154,6 @@ h2 {
 .main-grid .menu {
   grid-area: navegacion;
 }
-.main-grid .menu .box {
-  padding: 20px 0px;
-}
-.main-grid .menu.flex {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-start;
-  align-items: flex-start;
-}
-.main-grid .menu .iconos {
-  display: flex;
-  flex-direction: row-reverse;
-}
 .cuadricula {
   display: grid;
 }
@@ -340,7 +325,7 @@ body.page-id-17 .elementor-row {
   position: relative;
   right: 50px;
 }
-#ini .navegacion {
+#ini .menu {
   padding-right: 50px;
 }
 #ini a {
@@ -630,6 +615,18 @@ body.home .men {
   background: url(../img/Enredadera.jpg) no-repeat left;
   background-size: 100%;
 }
+#contacto .menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#contacto .menu .box {
+  padding: 20px 0px;
+}
+#contacto .menu .iconos {
+  display: flex;
+  flex-direction: row-reverse;
+}
 #contacto a {
   padding: 10px;
   color: #a0a0a0;
@@ -845,7 +842,7 @@ body.page-id-70 .elementor-element-6e99a94 {
   #ini .col4 {
     display: none;
   }
-  #ini .navegacion {
+  #ini .menu {
     display: none;
   }
   body.home .men {

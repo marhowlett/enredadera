@@ -106,7 +106,7 @@
             </div>                  
         </div>
 
-        <div class="navegacion">
+        <div class="menu">
             <p>www.laenredadera.com</p>
             <ul>
                 <li><a href="/" class="primero">Inicio</a></li>

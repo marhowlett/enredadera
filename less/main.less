@@ -208,26 +208,7 @@ h2 {
     }
 
     .menu {
-        grid-area: navegacion;
-
-        .box {
-            padding: 20px 0px;
-        } 
-
-        &.flex {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-content: flex-start;
-            align-items: flex-start;
-        }
-
-        .iconos {
-            display: flex;
-            flex-direction: row-reverse;                    
-        }
-    
+        grid-area: navegacion;      
     }
 }
 
@@ -456,7 +437,7 @@ font-style: italic;
         right: 50px;
     }
 
-    .navegacion {        
+    .menu {        
         padding-right: 50px;
     }
 
@@ -833,6 +814,22 @@ li a:hover {
         background: url(../img/Enredadera.jpg) no-repeat left;
         background-size: 100%;            
     }  
+
+    .menu {
+
+        width: 100%;           
+        display: flex;
+        justify-content: flex-end;
+
+        .box {
+            padding: 20px 0px;
+        } 
+     
+        .iconos {
+            display: flex;
+            flex-direction: row-reverse;                    
+        }
+    }
     
     a {
         padding: 10px;

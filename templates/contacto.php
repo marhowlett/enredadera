@@ -11,7 +11,7 @@
             &nbsp;&nbsp;
         </div>
 
-        <div class="menu flex">
+        <div class="menu">
             <div class="box">
                 <nav class="iconos">
                     <a href="<?php echo get_custom('instagram'); ?>"> 
