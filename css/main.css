@@ -154,6 +154,9 @@ h2 {
 .main-grid .menu {
   grid-area: navegacion;
 }
+.main-grid .menu .box {
+  padding: 20px 0px;
+}
 .main-grid .menu.flex {
   width: 100%;
   height: 100%;
@@ -165,12 +168,6 @@ h2 {
 .main-grid .menu .iconos {
   display: flex;
   flex-direction: row-reverse;
-}
-.main-grid .menu a {
-  padding: 10px;
-  color: black;
-  display: block;
-  text-decoration: none;
 }
 .cuadricula {
   display: grid;
@@ -625,21 +622,6 @@ body.home .men {
 #contacto li a:hover {
   text-decoration: underline;
 }
-#contacto .col2 {
-  min-height: 212px;
-  width: 355px;
-}
-#contacto .col3 {
-  height: 635px;
-  background: url(../img/Enredadera.jpg) no-repeat left;
-  background-size: 100%;
-  width: 82%;
-}
-#contacto .col4 {
-  width: 18%;
-  position: relative;
-  right: 30px;
-}
 #contacto .main-grid {
   grid-template-columns: 82% 18%;
 }
@@ -648,12 +630,12 @@ body.home .men {
   background: url(../img/Enredadera.jpg) no-repeat left;
   background-size: 100%;
 }
-#contacto .box {
-  padding: 20px 30px 0 10px;
-}
 #contacto a {
+  padding: 10px;
   color: #a0a0a0;
   font-size: 0.8em;
+  display: block;
+  text-decoration: none;
 }
 #contacto a.primero {
   color: black;
@@ -663,49 +645,10 @@ body.home .men {
 #contacto p {
   text-align: right;
 }
-#contacto .men2 {
-  margin: auto;
-  display: block;
-  position: relative;
-  z-index: 10;
-}
-#contacto .men2 ul {
-  float: right;
-  list-style-type: none;
-  padding: 0;
-  position: relative;
-}
-#contacto .men2 li {
-  float: right;
-  position: relative;
-  /* right: 50%; */
-  margin-left: 0px;
-  margin-bottom: 0px;
-  /* margin-right: -4px; */
-  right: -24px;
-}
-#contacto .men2 li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 8px;
-  position: relative;
-  text-decoration: none;
-}
-#contacto .men2 .aux-menu-label:hover {
-  text-decoration: underline;
-}
-#contacto .men2 .active {
-  text-decoration: underline;
-}
 #contacto p {
   text-align: right;
   font-size: 1em;
   font-weight: bold;
-}
-#contacto p span {
-  position: relative;
-  left: 50px;
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: inherit !important;
@@ -746,20 +689,6 @@ body.page-id-70 .elementor-element-6e99a94 {
 #proyecto .espacio a {
   position: relative;
   top: 20px;
-}
-@media screen and (max-width: 1213px) {
-  #contacto .men2 li a {
-    padding: 10px 8px;
-  }
-}
-@media screen and (min-width: 1214px) {
-  #contacto .men2 li a {
-    padding: 10px 10px;
-  }
-  #contacto p span {
-    position: relative;
-    left: 0px;
-  }
 }
 @media screen and (max-width: 1331px) {
   #ini2 {
@@ -871,38 +800,39 @@ body.page-id-70 .elementor-element-6e99a94 {
   #acerca .col {
     height: 417px;
   }
-  #contacto li a:hover {
-    text-decoration: underline;
-  }
   #contacto .main-grid {
     grid-template-columns: 75% 21%;
   }
   #contacto .principal {
     background: url(../img/Enredadera_lap.jpg) no-repeat top left;
   }
+  #contacto .menu .box {
+    padding: 20px 30px 0 10px;
+  }
+}
+@media (max-width: 1024px) {
+  #contacto .main-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'principal' 'navegacion';
+  }
+  #contacto .principal {
+    background: url(../img/Enredaderamovil.jpg) no-repeat top left;
+    height: 350px;
+  }
   #contacto .menu {
-    position: relative;
-    right: 0px;
-    top: -115px;
+    max-width: 95%;
+    margin: 0 auto;
   }
-  #contacto .col3 {
-    background: url(../img/Enredadera_lap.jpg) no-repeat top left;
-    width: 75%;
+  #contacto .menu .iconos a {
+    padding: 10px 18px;
   }
-  #contacto .col4 {
-    width: 21%;
-    position: relative;
-    right: 0px;
-    top: -115px;
-  }
-  #contacto ul span,
-  #contacto p span {
-    left: 0;
+  #contacto .menu span a {
+    padding-right: 0;
   }
 }
 @media (max-width: 768px) {
-  #ini .main-grid,
-  #contacto .main-grid {
+  #ini .main-grid {
     grid-template-columns: 1fr;
     grid-template-areas: 'principal' 'navegacion';
   }
@@ -992,31 +922,5 @@ body.page-id-70 .elementor-element-6e99a94 {
     position: relative;
     left: 0px;
     top: 128px;
-  }
-  #contacto .col4 {
-    width: 100%;
-  }
-  #contacto .col3 {
-    background: url(../img/Enredaderamovil.jpg) no-repeat top left;
-    width: 100%;
-    height: 350px;
-  }
-  #contacto .main-grid {
-    grid-template-rows: auto auto;
-  }
-  #contacto .principal {
-    background: url(../img/Enredaderamovil.jpg) no-repeat top left;
-    height: 350px;
-  }
-  #contacto .menu {
-    padding: 0;
-    max-width: 95%;
-    margin: 0 auto;
-  }
-  #contacto .men2 li a {
-    padding: 10px 18px;
-  }
-  #contacto .men2 li {
-    right: 0px;
   }
 }
