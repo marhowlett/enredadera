@@ -872,7 +872,7 @@ body.page-id-70 .elementor-element-6e99a94 {
     padding: 20px 30px 0 10px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1250px) {
   #contacto .main-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
@@ -902,7 +902,6 @@ body.page-id-70 .elementor-element-6e99a94 {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -50px;
   }
   #ini .col4 {
     display: none;
